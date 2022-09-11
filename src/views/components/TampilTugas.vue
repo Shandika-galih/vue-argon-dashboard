@@ -29,12 +29,12 @@
                             <h5 class="font-weight-bold mb-0">{{get.email}}</h5>
                         </td>
                         <div class="ms-auto text-end">
-                            <a class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
+                            <router-link :to="{name: 'delete', params:{id}}" class="btn btn-link text-danger text-gradient px-3 mb-0" href="javascript:;">
                                 <i class="far fa-trash-alt me-2" aria-hidden="true"></i>Delete
-                            </a>
-                            <a class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
+                            </router-link>
+                            <router-link :to="{name: 'put', params:{id}}" class="btn btn-link text-dark px-3 mb-0" href="javascript:;">
                                 <i class="fas fa-pencil-alt text-dark me-2" aria-hidden="true"></i>Edit
-                            </a>
+                            </router-link>
                         </div>
                     </tr>
                 </tbody>
