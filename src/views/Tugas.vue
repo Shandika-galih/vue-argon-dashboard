@@ -16,7 +16,6 @@
 <script>
 import TampilTugas from "./components/TampilTugas.vue";
 import ProjectsTable from "./components/ProjectsTable.vue";
-
 export default {
     name: "tugas",
     components: {
